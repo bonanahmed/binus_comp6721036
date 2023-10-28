@@ -12,6 +12,7 @@ void main() {
 final GoogleSignIn _googleSignIn = GoogleSignIn(
   scopes: [
     'email',
+    // Penyebab Error
     // 'https://www.googleapis.com/auth/contacts.readonly',
   ],
 );
